@@ -1,6 +1,7 @@
 **Vehicle Detection Project**
 
 [//]: # (Image References)
+
 [image1]: ./examples/car_not_car.png
 [image2]: ./examples/HOG_example.jpg
 [image3]: ./examples/pipeline.jpg
