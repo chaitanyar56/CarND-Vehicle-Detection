@@ -16,11 +16,13 @@ I then explored different color spaces and different `skimage.hog()` parameters 
 
 ![alt text][image2]
 
+Finalized parameters are shown in the table:
+
 | finalized Parameters         		|     Values	        					|
 |:---------------------:|:---------------------------------------------:|
 | orientations         		| 9  							|
-| pixels_per_cell      	| (2,2)	|
-| cell_per_block					|												|
+| pixels_per_cell      	| (8,8)	|
+| cell_per_block					|		(2,2)										|
 | spatial_size	      	| (32,32)			|
 | color_space      	| YCrCb 	|
 
@@ -36,5 +38,5 @@ I then explored different color spaces and different `skimage.hog()` parameters 
 ![alt text][image3]
 
 ---
-*Discussion*
+*Discussion:*
 For better smooth tracking a filter can be designed to estimate the position of the car in the next frame and use that estimated frame along with the current detected frame to remove false positives. The pipeline's tracking performance depends on the speed of the vehicle, by estimating the speed and position of the adaptive window size can be used.
