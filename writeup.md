@@ -3,7 +3,7 @@
 [//]: # (Image References)
 [image1]: ./examples/car_not_car.png
 [image2]: ./examples/HOG_example.jpg
-[image3]: ./examples/pipelines.jpg
+[image3]: ./examples/pipeline.jpg
 ---
 
 Link to the [project file](https://github.com/chaitanyar56/CarND-Vehicle-Detection/blob/master/vehicleDetection.ipynb) ,  [helper functions](https://github.com/chaitanyar56/CarND-Vehicle-Detection/blob/master/lesson_functions.py) and the output pipeline [video](https://github.com/chaitanyar56/CarND-Vehicle-Detection/blob/master/output_images/processed_project_video.mp4)
