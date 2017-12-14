@@ -5,6 +5,7 @@
 [image1]: ./examples/car_not_car.png "Visualization of images"
 [image2]: ./examples/HOG_example.jpg "Hog features"
 [image3]: ./examples/pipeline.jpg "Pipeline"
+
 ---
 
 Link to the [project file](https://github.com/chaitanyar56/CarND-Vehicle-Detection/blob/master/vehicleDetection.ipynb) ,  [helper functions](https://github.com/chaitanyar56/CarND-Vehicle-Detection/blob/master/lesson_functions.py) and the output pipeline [video](https://github.com/chaitanyar56/CarND-Vehicle-Detection/blob/master/output_images/processed_project_video.mp4)
