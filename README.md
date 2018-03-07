@@ -12,9 +12,13 @@ Tools Used: `python (sci-kit-learn, cv2)`.
 [image2]: ./examples/HOG_example.jpg "Hog features"
 [image3]: ./examples/pipeline.jpg "Pipeline"
 
+Resources
+---
+Build a pipeline using test images and validate it with test_video.mp4. Finally test it with project_video.mp4.
+
 ## Steps followed in the project
 
-* I started by reading in all the `vehicle` and `non-vehicle` images.  Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
+* I started by reading in all the `vehicle` and `non-vehicle` images dataset.  Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
 
   ![alt text][image1]
 
@@ -25,12 +29,12 @@ Tools Used: `python (sci-kit-learn, cv2)`.
   Finalized parameters are shown in the table:
 
 | finalized Parameters         		|     Values	        					|
-        |:---------------------:|:---------------------------------------------:|
-        | orientations         		| 9  							|
-        | pixels_per_cell      	| (8,8)	|
-        | cell_per_block					|		(2,2)										|
-        | spatial_size	      	| (32,32)			|
-        | color_space      	| YCrCb 	|
+|:---------------------:|:---------------------------------------------:|
+| orientations         		| 9  							|
+| pixels_per_cell      	| (8,8)	|
+| cell_per_block					|		(2,2)										|
+| spatial_size	      	| (32,32)			|
+| color_space      	| YCrCb 	|
 
 * I tried various choice of parameters and highest training accuracy is achieved when all the features are used (i.e. hog and color). Feature extraction is done in the code cell 5.
 
